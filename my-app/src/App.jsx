@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import copVisionLogo from './images/copvision_logo.png'
+import Navbar from "./components/Navbar"
 import './App.css'
 
 function App() {
@@ -8,28 +8,36 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar />
+      <section id="home">
+        <div>
+          <img src={copVisionLogo} className="logo" alt="Couldn't Load Logo" style={{padding: 30}}/>
+          <h1>Welcome to Cop Vision</h1>
+          <h2>Your AI assistant for filing objective police reports</h2>
+        </div>
+      </section>
+
+      <section id="upload">
+        <div className="card">
+          <button onClick={() => setCount(count + 1)}>
+            Upload Body Cam Footage
+          </button>
+        </div>
+      </section>
+
+      <section id="info">
+        <div className="input_information">
+          <h2> File Information:</h2>
+        </div>
+      </section>
+
+      <section id="contact us">
+        <div className="contact-us">
+          <h3>Contact us</h3>
+        </div>
+      </section>
     </>
   )
 }
 
-export default App
+export default App;
