@@ -2,6 +2,7 @@ import { useState, useRef } from 'react'
 import copVisionLogo from './images/copvision_logo.png'
 import Navbar from "./components/Navbar"
 import FileUpload from "./components/FileUpload"
+import TextInformation from "./components/TextInformation"
 import './App.css'
 
 function App() {
@@ -22,8 +23,7 @@ function App() {
   };
 
   return (
-    <>
-      <Navbar />
+    <div className="main-content">
       <section id="home">
         <div>
           <img src={copVisionLogo} className="logo" alt="Couldn't Load Logo" style={{padding: 30}}/>
@@ -60,13 +60,14 @@ function App() {
           <h2> File Information:</h2>
         </div>
       </section>
-
+      <TextInformation />
+  
       <section id="contact us">
         <div className="contact-us">
           <h3>Contact us</h3>
         </div>
       </section>
-    </>
+    </div>
   )
 }
 
