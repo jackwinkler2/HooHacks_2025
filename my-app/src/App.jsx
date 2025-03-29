@@ -6,17 +6,18 @@ import './App.css'
 
 function App() {
   const fileInputRef = useRef(null);
+  const [uploadedFiles, setUploadedFiles] = useState([]); // Store uploaded files
 
   const handleUploadClick = () => {
     if (fileInputRef.current) {
-      fileInputRef.current.click(); // Opens file selection window
+      fileInputRef.current.click();
     }
   };
 
   const handleFileChange = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      console.log("Selected file:", file.name);
+    const files = Array.from(event.target.files); // Convert FileList to an array
+    if (files.length > 0) {
+      setUploadedFiles((prevFiles) => [...prevFiles, ...files]); // Append new files
     }
   };
 
@@ -33,12 +34,26 @@ function App() {
 
       <section id="upload">
         <div className="card">
-        <FileUpload fileInputRef={fileInputRef} onFileChange={handleFileChange} />
-        <button onClick= {handleUploadClick}>
+          <FileUpload fileInputRef={fileInputRef} onFileChange={handleFileChange} />
+          <button onClick={handleUploadClick}>
             Upload Body Cam Footage
           </button>
+
+          {/* Display uploaded files */}
+          {uploadedFiles.length > 0 && (
+            <div className="uploaded-files">
+              <h3>Uploaded Files:</h3>
+              <ul>
+                {uploadedFiles.map((file, index) => (
+                  <li key={index}>{file.name}</li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </section>
+
+
 
       <section id="info">
         <div className="input_information">
