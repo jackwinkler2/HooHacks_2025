@@ -1,10 +1,24 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import copVisionLogo from './images/copvision_logo.png'
 import Navbar from "./components/Navbar"
+import FileUpload from "./components/FileUpload"
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const fileInputRef = useRef(null);
+
+  const handleUploadClick = () => {
+    if (fileInputRef.current) {
+      fileInputRef.current.click(); // Opens file selection window
+    }
+  };
+
+  const handleFileChange = (event) => {
+    const file = event.target.files[0];
+    if (file) {
+      console.log("Selected file:", file.name);
+    }
+  };
 
   return (
     <>
@@ -19,7 +33,8 @@ function App() {
 
       <section id="upload">
         <div className="card">
-          <button onClick={() => setCount(count + 1)}>
+        <FileUpload fileInputRef={fileInputRef} onFileChange={handleFileChange} />
+        <button onClick= {handleUploadClick}>
             Upload Body Cam Footage
           </button>
         </div>
