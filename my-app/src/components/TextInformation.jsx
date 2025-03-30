@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './TextInformation.css';
 
-const TextInformation = () => {
+const TextInformation = ({ onFormUpdate }) => {
     const [cops, setCops] = useState(['']);
     const [suspects, setSuspects] = useState(['']);
     const [formData, setFormData] = useState({
@@ -48,19 +48,21 @@ const TextInformation = () => {
         }));
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Handle form submission here
-        console.log({
-            ...formData,
-            cops: cops.filter(cop => cop !== ''),
-            suspects: suspects.filter(suspect => suspect !== '')
-        });
-    };
+    // Check if form is complete
+    useEffect(() => {
+        const isFormComplete = 
+            formData.date !== '' &&
+            formData.time !== '' &&
+            formData.objectiveOverview !== '' &&
+            cops.some(cop => cop !== '') &&
+            suspects.some(suspect => suspect !== '');
+        
+        onFormUpdate(isFormComplete);
+    }, [formData, cops, suspects, onFormUpdate]);
 
     return (
         <div className="text-information-container">
-            <form onSubmit={handleSubmit}>
+            <form>
                 <div className="form-group">
                     <label htmlFor="date">Date:</label>
                     <input
@@ -138,10 +140,6 @@ const TextInformation = () => {
                         placeholder="Enter the objective overview..."
                     />
                 </div>
-
-                <button type="submit" className="submit-button">
-                    Submit
-                </button>
             </form>
         </div>
     );
