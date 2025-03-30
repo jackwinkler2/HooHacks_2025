@@ -63,7 +63,7 @@ function App() {
         </div>
       </section>
  
-          <button onClick={() => navigate("/submit")}  className="submit_button">
+          <button onClick={() => navigate("./components/SubmitPage")}  className="submit_button">
             Process Information
           </button>
 
