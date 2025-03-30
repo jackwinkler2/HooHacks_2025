@@ -1,0 +1,284 @@
+Video Analysis: 105_precint_officer_a.mp4
+==================================================
+
+[00:00:00]
+Speech:  you
+Visual: a car is seen in this image from the video
+
+------------------------------
+[00:00:04]
+Speech:  We have our body cameras on now. Is the ring camera the only camera that works?
+Visual: a man in a police uniform is seen on the street
+
+------------------------------
+[00:00:09]
+Speech:  We have the ring camera. We have the other camera. Can you disconnect them so that you can't be able to do that?
+Visual: a red car is parked in front of a house
+
+------------------------------
+[00:00:14]
+Speech:  If they could do that then you won't know what's going on here. I would call 911 immediately if he comes back until he arrest.
+Visual: a car is parked in front of a house
+
+------------------------------
+[00:00:19]
+Speech:  I just told him you made a keep that pink piece of paper show him. Do you feel safe here? Would you rather go to a domestic violence shelter?
+Visual: a street view of a house and cars
+
+------------------------------
+[00:00:24]
+Speech:  I think the kids are not going to get my sister's house.
+Visual: a street view of a house and cars
+
+------------------------------
+[00:00:29]
+Speech:  You could change the locks because he's going to be arrested. So technically he has to have access but he's going to get arrested and then there's going to be an order of protection issue.
+Visual: a car is parked in front of a house
+
+------------------------------
+[00:00:34]
+Speech:  Once you change the locks even if he called the police we're going to arrest him and then the order of protection will be in effect and then you have every right to change the locks for your own safety.
+Visual: a car is parked on the street in front of houses
+
+------------------------------
+[00:00:39]
+Speech:  You can change it now. I would highly recommend it.
+Visual: a red car parked in front of a house
+
+------------------------------
+[00:00:44]
+Speech:  If you have the key.
+Visual: a red car parked on the side of a street
+
+------------------------------
+[00:00:49]
+Speech:  You guys want to go in?
+Visual: a red car parked on the side of a street
+
+------------------------------
+[00:00:54]
+Speech:  We'll go in when you just make sure he's not here and everything's safe and okay.
+Visual: a woman is standing in front of her car
+
+------------------------------
+[00:00:59]
+Speech:  The thing is we have this access for all the cameras.
+Visual: a woman is seen in a video posted by the police
+
+------------------------------
+[00:01:04]
+Speech:  We are going to have to disconnect it.
+Visual: a woman is standing in front of her car
+
+------------------------------
+[00:01:09]
+Speech:  The ring camera. I don't know how to do that.
+Visual: a woman is seen in a video posted by the police
+
+------------------------------
+[00:01:14]
+Speech:  You can see this right now.
+Visual: a woman is seen in the street as she gets her car
+
+------------------------------
+[00:01:19]
+Speech:  You can see it right now.
+Visual: a woman is seen in the street as she gets her car
+
+------------------------------
+[00:01:24]
+Speech:  I have one in the bottom.
+Visual: a woman is seen in a video on the street
+
+------------------------------
+[00:01:29]
+Speech:  You have a two ring cameras?
+Visual: a man is seen in the street as he gets his car
+
+------------------------------
+[00:01:34]
+Speech:  Is this growing?
+Visual: a woman is seen in a video on the street
+
+------------------------------
+[00:01:39]
+Speech:  You have a Phillips such screwdriver being picked up.
+Visual: a man is seen in a video camera as he takes a picture of his car
+
+------------------------------
+[00:01:44]
+Speech:  Or you can put a cloth over it.
+Visual: a woman is seen in the back of a car
+
+------------------------------
+[00:01:49]
+Speech:  That worked too.
+Visual: a man is standing in front of a red car
+
+------------------------------
+[00:01:54]
+Speech:  Low tech.
+Visual: a man in a face mask is seen in a video
+
+------------------------------
+[00:01:59]
+Speech:  Hold me. I don't have to stop.
+Visual: a man in a face mask is seen on the street
+
+------------------------------
+[00:02:04]
+Speech:  You didn't see his car out there?
+Visual: a woman is seen in a video taken by a police officer
+
+------------------------------
+[00:02:09]
+Speech:  No.
+Visual: a woman is seen in a surveillance video
+
+------------------------------
+[00:02:14]
+Speech:  But his access to his firearm is definitely not in this home.
+Visual: a man is standing in front of a house
+
+------------------------------
+[00:02:19]
+Speech:  I don't know if it's in here.
+Visual: a person is standing in front of a house
+
+------------------------------
+[00:02:24]
+Speech:  I don't know if it's upstairs.
+Visual: a man is standing in front of a house
+
+------------------------------
+[00:02:29]
+Speech:  Do you have access to the stairs?
+Visual: a police officer is seen in this image
+
+------------------------------
+[00:02:34]
+Speech:  No.
+Visual: a woman is being carried into a house by police
+
+------------------------------
+[00:02:39]
+Speech:  I don't know if it's in here.
+Visual: a man is seen in the back of a house
+
+------------------------------
+[00:02:44]
+Speech:  You haven't seen the firearm in this house since he's been back.
+Visual: a man is seen in the mirror of a house
+
+------------------------------
+[00:02:49]
+Speech:  Since he got it back.
+Visual: a police officer is seen on the stairs of a building
+
+------------------------------
+[00:02:54]
+Speech:  You're going to come back because we left everything here.
+Visual: a man is seen in the mirror while he is seen
+
+------------------------------
+[00:02:59]
+Speech:  He's going to be back because he left everything.
+Visual: a man is seen in a mirror while he plays the guitar
+
+------------------------------
+[00:03:04]
+Speech:  Everything.
+Visual: a man is seen in a mirror while he walks through the room
+
+------------------------------
+[00:03:09]
+Speech:  Do you want to pack up a go to your sister's now while we're still here?
+Visual: a man is seen in a mirror while he is seen
+
+------------------------------
+[00:03:14]
+Speech:  The kids are in the middle of school.
+Visual: a man is seen in a mirror while he is seen
+
+------------------------------
+[00:03:19]
+Speech:  Well, unless I change the box.
+Visual: a mirror is shown in the middle of a room
+
+------------------------------
+[00:03:24]
+Speech:  If you can get a locksmith here, as soon as possible.
+Visual: a man is seen in this surveillance image
+
+------------------------------
+[00:03:29]
+Speech:  That's a good idea for a college college.
+Visual: a man is seen in a mirror while he is seen
+
+------------------------------
+[00:03:34]
+Speech:  Where is your sister?
+Visual: a man is seen in this surveillance image
+
+------------------------------
+[00:03:39]
+Speech:  He's coming.
+Visual: a man is seen in the hallway of his home
+
+------------------------------
+[00:03:44]
+Speech:  Let's hear it.
+Visual: a man in a room with a ladder and a ladder
+
+------------------------------
+
+
+FULL TRANSCRIPT
+==================================================
+
+[00:00:00 - 00:00:02]  you
+[00:00:30 - 00:00:56]  We have our body cameras on now. Is the ring camera the only camera that works?
+[00:00:56 - 00:01:08]  We have the ring camera. We have the other camera. Can you disconnect them so that you can't be able to do that?
+[00:01:08 - 00:01:16]  If they could do that then you won't know what's going on here. I would call 911 immediately if he comes back until he arrest.
+[00:01:16 - 00:01:26]  I just told him you made a keep that pink piece of paper show him. Do you feel safe here? Would you rather go to a domestic violence shelter?
+[00:01:26 - 00:01:32]  I think the kids are not going to get my sister's house.
+[00:01:32 - 00:01:44]  You could change the locks because he's going to be arrested. So technically he has to have access but he's going to get arrested and then there's going to be an order of protection issue.
+[00:01:44 - 00:01:54]  Once you change the locks even if he called the police we're going to arrest him and then the order of protection will be in effect and then you have every right to change the locks for your own safety.
+[00:01:54 - 00:01:58]  You can change it now. I would highly recommend it.
+[00:01:58 - 00:02:00]  If you have the key.
+[00:02:00 - 00:02:02]  You guys want to go in?
+[00:02:02 - 00:02:08]  We'll go in when you just make sure he's not here and everything's safe and okay.
+[00:02:08 - 00:02:14]  The thing is we have this access for all the cameras.
+[00:02:14 - 00:02:18]  We are going to have to disconnect it.
+[00:02:18 - 00:02:20]  The ring camera. I don't know how to do that.
+[00:02:20 - 00:02:22]  You can see this right now.
+[00:02:22 - 00:02:24]  You can see it right now.
+[00:02:24 - 00:02:26]  I have one in the bottom.
+[00:02:26 - 00:02:28]  You have a two ring cameras?
+[00:02:30 - 00:02:32]  Is this growing?
+[00:02:32 - 00:02:36]  You have a Phillips such screwdriver being picked up.
+[00:02:36 - 00:02:38]  Or you can put a cloth over it.
+[00:02:38 - 00:02:40]  That worked too.
+[00:02:40 - 00:02:42]  Low tech.
+[00:02:54 - 00:02:56]  Hold me. I don't have to stop.
+[00:02:56 - 00:02:58]  You didn't see his car out there?
+[00:02:58 - 00:03:00]  No.
+[00:03:00 - 00:03:06]  But his access to his firearm is definitely not in this home.
+[00:03:06 - 00:03:10]  I don't know if it's in here.
+[00:03:10 - 00:03:12]  I don't know if it's upstairs.
+[00:03:12 - 00:03:14]  Do you have access to the stairs?
+[00:03:14 - 00:03:16]  No.
+[00:03:16 - 00:03:18]  I don't know if it's in here.
+[00:03:18 - 00:03:22]  You haven't seen the firearm in this house since he's been back.
+[00:03:22 - 00:03:24]  Since he got it back.
+[00:03:30 - 00:03:40]  You're going to come back because we left everything here.
+[00:03:40 - 00:03:46]  He's going to be back because he left everything.
+[00:03:46 - 00:03:48]  Everything.
+[00:03:48 - 00:03:52]  Do you want to pack up a go to your sister's now while we're still here?
+[00:03:52 - 00:03:56]  The kids are in the middle of school.
+[00:03:56 - 00:03:59]  Well, unless I change the box.
+[00:03:59 - 00:04:03]  If you can get a locksmith here, as soon as possible.
+[00:04:03 - 00:04:05]  That's a good idea for a college college.
+[00:04:05 - 00:04:07]  Where is your sister?
+[00:04:07 - 00:04:09]  He's coming.
+[00:04:09 - 00:04:11]  Let's hear it.
