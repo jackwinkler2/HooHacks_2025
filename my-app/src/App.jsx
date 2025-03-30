@@ -53,7 +53,6 @@ function HomePage() {
             Upload Body Cam Footage
           </button>
 
-          {/* Display uploaded files */}
           {uploadedFiles.length > 0 && (
             <div className="uploaded-files">
               <h3>Uploaded Files:</h3>
