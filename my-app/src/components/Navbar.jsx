@@ -10,6 +10,7 @@ const Navbar = () => {
           <img src={copVisionLogo} alt="CopVision Logo" className="navbar_logo" />
         </a>
         {/* Navigation Links */}
+        <div className="navbar_links">
             <Link
               to="home"
               smooth={true}
@@ -45,8 +46,9 @@ const Navbar = () => {
             >
               Contact Us
             </Link>
+        </div>
     </nav>
   );
 };
   
-  export default Navbar;
+export default Navbar;

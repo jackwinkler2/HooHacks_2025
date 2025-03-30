@@ -1,8 +1,17 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
+  background-color: white;
+  color: black;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: black;
 }
 
 .logo {
@@ -17,6 +26,7 @@
 
 .card {
   padding: 32px;
+  color: black;
 }
 
 .contact-us {
@@ -27,41 +37,67 @@
   color: red;
 }
 
-.navbar{
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 80%;
+  right: 0;
+  width: 100%;
   background-color: white;
   z-index: 50;
   display: flex;
-  justify-content: space-between; 
+  justify-content: flex-start;
   align-items: center;
-  padding: 3px 25px; 
+  padding: 8px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar_logo {
   filter: drop-shadow(0 0 100px #01dd43aa);
-  height: 50px;
+  height: 40px;
   width: auto;
+  margin-right: 30px;
+}
+
+.navbar_links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
 }
 
 .navbar_element {
-  display: inline-block;  
-  padding: 10px; 
-  background-color: #ffffff; 
-  color: rgb(0, 0, 0); 
-  border-radius: 8px;
+  display: inline-block;
+  padding: 6px 100px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 6px;
   font-weight: bold;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  font-size: 0.95rem;
 }
 
 .navbar_element:hover {
   background-color: #9b9d9e;
-  transform: scale(1.1);
+  transform: scale(1.05);
+  color: black;
 }
+
+/* Add styles for the main content to account for fixed navbar */
+main {
+  padding-top: 80px; /* Adjust this value based on your navbar height */
+  width: 100%;
+  min-height: calc(100vh - 80px);
+}
+
 
 .submit_button {
   color: rgb(0, 0, 0); 
   background-color: rgb(21, 226, 18);
 }
+
+.main-content {
+  padding-top: 80px;
+}
+
+
