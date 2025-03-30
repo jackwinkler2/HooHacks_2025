@@ -1,17 +1,17 @@
 import { useState, useRef } from 'react'
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom'
 import copVisionLogo from './images/copvision_logo.png'
 import Navbar from "./components/Navbar"
 import FileUpload from "./components/FileUpload"
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
-import SubmitPage from "./components/SubmitPage"; // Import new page
-
+import SubmitPage from "./components/SubmitPage"
 import TextInformation from "./components/TextInformation"
 import './App.css'
 
-function App() {
+function HomePage() {
   const fileInputRef = useRef(null);
-  const [uploadedFiles, setUploadedFiles] = useState([]); // Store uploaded files
-/*  const navigate = useNavigate(); // Hook for navigation */
+  const [uploadedFiles, setUploadedFiles] = useState([]);
+  const [isFormComplete, setIsFormComplete] = useState(false);
+  const navigate = useNavigate();
 
   const handleUploadClick = () => {
     if (fileInputRef.current) {
@@ -20,9 +20,19 @@ function App() {
   };
 
   const handleFileChange = (event) => {
-    const files = Array.from(event.target.files); // Convert FileList to an array
+    const files = Array.from(event.target.files);
     if (files.length > 0) {
-      setUploadedFiles((prevFiles) => [...prevFiles, ...files]); // Append new files
+      setUploadedFiles((prevFiles) => [...prevFiles, ...files]);
+    }
+  };
+
+  const handleFormUpdate = (complete) => {
+    setIsFormComplete(complete);
+  };
+
+  const handleSubmit = () => {
+    if (isFormComplete && uploadedFiles.length > 0) {
+      navigate("/submit");
     }
   };
 
@@ -62,21 +72,39 @@ function App() {
           <h2> File Information:</h2>
         </div>
       </section>
- 
-          <button onClick={() => navigate("./components/SubmitPage")}  className="submit_button">
-            Process Information
-          </button>
 
-
-      <TextInformation />
+      <TextInformation onFormUpdate={handleFormUpdate} />
   
+      <section className="submit-section">
+        <button 
+          onClick={handleSubmit} 
+          className={`submit-button ${isFormComplete && uploadedFiles.length > 0 ? 'active' : 'disabled'}`}
+          disabled={!isFormComplete || uploadedFiles.length === 0}
+        >
+          Process Information
+        </button>
+      </section>
+
       <section id="contact us">
         <div className="contact-us">
           <h3>Contact us</h3>
         </div>
       </section>
     </div>
-  )
+  );
+}
+
+// Main App component with routing
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/submit" element={<SubmitPage />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
