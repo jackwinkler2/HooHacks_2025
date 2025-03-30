@@ -1,0 +1,73 @@
+.circle {
+    width: 138px;
+    height: 138px;
+    background-color: rgb(24, 24, 152);
+    border-radius: 50%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-size: 14px; 
+    font-weight: 600;
+    text-align: center;
+}
+
+.circle:hover{
+  background-color: #3ba6db;
+  transform: scale(1.15);
+  color: black;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  outline: 1px solid black;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Space between circle and button */
+  align-items: center; /* Center items horizontally */
+  height: 100vh; /* Full viewport height */
+  padding: 20px; /* Add padding if you want some space around the edges */
+  box-sizing: border-box; /* Ensure padding is included in height calculation */
+}
+
+.home-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 200px;
+  margin-bottom: 20px; /* Add some space from the bottom */
+}
+
+.home-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px; /* Adjust the width as needed */
+}
+
+.popup-content h2 {
+  margin-bottom: 10px;
+}

@@ -1,60 +1,36 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Line } from "@react-three/drei";
+import './SubmitPage.css'
 
 const SubmitPage = () => {
   const navigate = useNavigate();
 
-  const radius = 2.5; // Distance from the center
-  const positions = [
-    [radius, 0, 0],
-    [-radius, 0, 0],
-    [0, radius, 0],
-    [0, -radius, 0],
-    [0, 0, radius],
-  ];
+  const [isPopupVisible, setPopupVisible] = useState(false);
 
-  // State to track which sphere is hovered
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  // Function to toggle the popup visibility
+  const togglePopup = () => {
+    setPopupVisible(!isPopupVisible);
+  };
 
   return (
-    <div style={{ textAlign: "center" }}>
-      <h1>Your Knowledge Chart Results</h1>
+    <div style={{ textAlign: "center", padding: 50}}>
+      <h1 style={{ marginBottom: '200px', marginTop: '50px'}}>Your Knowledge Chart Results</h1>
+      <div className="circle"
+      onClick={togglePopup} 
+      style={{ cursor: 'pointer' }}
+      >Report Summary</div>
 
-      <Canvas style={{ width: "100vw", height: "70vh" }}>
-        <ambientLight intensity={0.5} />
-        <directionalLight position={[2, 2, 2]} />
-        <OrbitControls />
+      {isPopupVisible && (
+        <div className="popup">
+          <div className="popup-content">
+            <h2>Report Summary</h2>
+            <p>AI report overview, pulled from python script</p>
+            <button onClick={togglePopup}>Close</button>
+          </div>
+        </div>
+      )}
 
-        {/* Central Sphere */}
-        <mesh position={[0, 0, 0]}>
-          <sphereGeometry args={[1, 32, 32]} />
-          <meshStandardMaterial color="blue" wireframe />
-        </mesh>
-
-        {/* Outer Spheres + Hover Effect */}
-        {positions.map((pos, index) => (
-          <React.Fragment key={index}>
-            <mesh
-              position={pos}
-              onPointerOver={() => setHoveredIndex(index)}
-              onPointerOut={() => setHoveredIndex(null)}
-            >
-              <sphereGeometry args={[0.5, 32, 32]} />
-              <meshStandardMaterial
-                color={hoveredIndex === index ? "yellow" : "red"} // Highlight effect
-                wireframe
-              />
-            </mesh>
-
-            {/* Line from Center to Outer Sphere */}
-            <Line points={[[0, 0, 0], pos]} color="white" lineWidth={2} />
-          </React.Fragment>
-        ))}
-      </Canvas>
-
-      <button onClick={() => navigate("/")}>Back to Home</button>
+      <button className="home-button" onClick={() => navigate("/")}>Back to Home</button>
     </div>
   );
 };
