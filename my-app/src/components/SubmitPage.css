@@ -1,0 +1,56 @@
+.home-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 200px;
+    margin-bottom: 20px; /* Add some space from the bottom */
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the popup is above other elements */
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px; /* Adjust width */
+  }
+  
+  .popup-content h2 {
+    margin-bottom: 10px;
+  }
+
+  .home-button {
+    background-color: #1259a4;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 20px; 
+  }
+  
+  .home-button:hover {
+    background-color: #15304e; /* Darker blue on hover */
+  }
