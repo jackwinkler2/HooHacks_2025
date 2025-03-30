@@ -2,11 +2,14 @@ import { useState, useRef } from 'react'
 import copVisionLogo from './images/copvision_logo.png'
 import Navbar from "./components/Navbar"
 import FileUpload from "./components/FileUpload"
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import SubmitPage from "./components/SubmitPage"; // Import new page
 import './App.css'
 
 function App() {
   const fileInputRef = useRef(null);
   const [uploadedFiles, setUploadedFiles] = useState([]); // Store uploaded files
+/*  const navigate = useNavigate(); // Hook for navigation */
 
   const handleUploadClick = () => {
     if (fileInputRef.current) {
@@ -53,13 +56,15 @@ function App() {
         </div>
       </section>
 
-
-
       <section id="info">
         <div className="input_information">
           <h2> File Information:</h2>
         </div>
       </section>
+ 
+          <button onClick={() => navigate("/submit")}  className="submit_button">
+            Process Information
+          </button>
 
       <section id="contact us">
         <div className="contact-us">
