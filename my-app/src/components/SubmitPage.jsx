@@ -35,10 +35,15 @@ const SubmitPage = () => {
     <div style={{ textAlign: "center", marginTop: "80px"}}>
       <h1>Your Knowledge Chart Results</h1>
 
-      <Canvas style={{ width: "100vw", height: "70vh" }}>
-        <ambientLight intensity={0.5} />
-        <directionalLight position={[2, 2, 2]} />
-        <OrbitControls />
+      {isPopupVisible && (
+        <div className="popup">
+          <div className="popup-content">
+            <h2>Report Summary</h2>
+            <p>AI report overview, pulled from python script</p>
+            <button onClick={togglePopup}>Close</button>
+          </div>
+        </div>
+      )}
 
         {/* Central Sphere */}
         <group position={[0, 0, 0]}>
