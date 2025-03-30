@@ -16,13 +16,10 @@ body {
 }
 
 .logo {
-  height: auto;
+  height: .1;
+  width: 0.1;
   padding: 1;
   transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 32px #020ccaaa);
 }
 
 .card {
@@ -56,51 +53,7 @@ body {
   color: rgb(8, 19, 90);
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background-color: white;
-  z-index: 50;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 8px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.navbar_logo {
-  filter: drop-shadow(0 0 100px #01dd43aa);
-  height: 40px;
-  width: auto;
-  margin-right: 30px;
-}
-
-.navbar_links {
-  display: flex;
-  justify-content: flex-start;
-  gap: 140px;
-}
-
-.navbar_element {
-  display: inline-block;
-  padding: 6px 100px;
-  background-color: #ffffff;
-  color: black;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-  font-size: 0.95rem;
-}
-
-.navbar_element:hover {
-  background-color: rgb(20, 89, 173);
-  transform: scale(1.05);
-  color: black;
-}
 
 /* Add styles for the main content to account for fixed navbar */
 main {

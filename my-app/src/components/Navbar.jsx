@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import copVisionLogo from "../images/copvision_logo.png";
+import './Navbar.css'
 
 const Navbar = () => {
   return (

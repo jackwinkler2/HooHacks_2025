@@ -43,9 +43,9 @@ function HomePage() {
     <div className="main-content">
       <section id="home">
         <div>
-          <img src={copVisionLogo} className="logo" alt="Couldn't Load Logo" style={{ padding: 30 }} />
+          <img src={copVisionLogo} className="logo" alt="Couldn't Load Logo"/>
           <h1>Welcome to Cop Vision</h1>
-          <h2>Your AI assistant for filing objective police reports!</h2>
+          <h2>Your AI assistant for filing efficient police reports!</h2>
         </div>
       </section>
   
@@ -105,7 +105,7 @@ function HomePage() {
       <div className="team-member">
         <img src={Jack_headshot} alt="Jack Winkler" className="team-photo" />
         <h4>Jack Winkler</h4>
-        <p>Scrum Master</p>
+        <p style={{marginBottom:"80px"}}>Scrum Master </p>
       </div>
     </div>
   </div>
