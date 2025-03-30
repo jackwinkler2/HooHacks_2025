@@ -52,7 +52,7 @@ function HomePage() {
       <section id="upload">
         <div className="card">
           <FileUpload fileInputRef={fileInputRef} onFileChange={handleFileChange} />
-          <button onClick={handleUploadClick}>
+          <button className="uploadVid-button" onClick={handleUploadClick}>
             Upload Body Cam Footage
           </button>
 

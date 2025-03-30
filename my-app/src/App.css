@@ -53,8 +53,6 @@ body {
   color: rgb(8, 19, 90);
 }
 
-
-
 /* Add styles for the main content to account for fixed navbar */
 main {
   padding-top: 80px; /* Adjust this value based on your navbar height */
@@ -80,8 +78,8 @@ main {
 }
 
 .submit-button {
-  padding: 0.8rem 1.5rem;
-  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   border: none;
   border-radius: 6px;
@@ -92,6 +90,7 @@ main {
   width: auto;
   min-width: 200px;
   max-width: 300px;
+  margin-bottom: 70px;
 }
 
 .submit-button.active {
@@ -109,4 +108,19 @@ main {
   opacity: 1;
 }
 
+.uploadVid-button{
+  padding: 20px 20px;  
+  font-size: 24px;     
+  width: auto;         
+  height: auto;        
+  background-color: #007bff;  
+  color: white;        
+  border: none;        
+  border-radius: 6px;  
+  cursor: pointer;     
+  transition: background-color 0.3s ease-in-out;
+}
 
+.uploadVid-button:hover {
+  background-color: #0056b3;  /* Darker color on hover */
+}
