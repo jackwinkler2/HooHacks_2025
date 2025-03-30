@@ -17,6 +17,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               className="navbar_element"
+              offset={-60}
             >
               Home
             </Link>
@@ -26,6 +27,7 @@ const Navbar = () => {
               smooth={true}
               duration={750}
               className="navbar_element"
+              offset={-60}
             >
               Upload
             </Link>
@@ -35,15 +37,17 @@ const Navbar = () => {
               smooth={true}
               duration={750}
               className="navbar_element"
+              offset={-90}
             >
               Info
             </Link>
 
             <Link
-              to="contact us"
+              to="contact-us"
               smooth={true}
               duration={750}
               className="navbar_element"
+              offset={-80}
             >
               Contact Us
             </Link>
