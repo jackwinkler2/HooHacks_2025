@@ -3,12 +3,13 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: rgb(252, 250, 250);
+  background-size: cover;
 }
 
 body {
   background-color: white;
+  background-size: cover;
   margin: 0;
   padding: 0;
   color: black;
@@ -30,11 +31,29 @@ body {
 }
 
 .contact-us {
-  color: #888;
+  color: #040c3f;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.team-member {
+  text-align: center;
+  flex: 1;
+}
+
+.team-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .input_information {
-  color: red;
+  color: rgb(8, 19, 90);
 }
 
 .navbar {
@@ -62,7 +81,7 @@ body {
 .navbar_links {
   display: flex;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 140px;
 }
 
 .navbar_element {
@@ -78,7 +97,7 @@ body {
 }
 
 .navbar_element:hover {
-  background-color: #9b9d9e;
+  background-color: rgb(20, 89, 173);
   transform: scale(1.05);
   color: black;
 }
@@ -115,15 +134,15 @@ main {
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background-color: #cccccc;
-  color: #666666;
+  background-color: rgb(20, 89, 173);
+  color: #ffffff;
   width: auto;
   min-width: 200px;
   max-width: 300px;
 }
 
 .submit-button.active {
-  background-color: #007bff;
+  background-color: #0d045a;
   color: white;
 }
 
@@ -134,7 +153,7 @@ main {
 
 .submit-button.disabled {
   cursor: not-allowed;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 
